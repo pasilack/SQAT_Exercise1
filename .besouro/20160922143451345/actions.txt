@@ -141,3 +141,8 @@ RefactoringAction 1474550114306 TestBowling.java RENAME testThrowWith100points()
 RefactoringAction 1474550117326 TestBowling.java RENAME testSecondThrowWith100points()=>void testSecondThrowWith FIELD
 RefactoringAction 1474550121356 TestBowling.java RENAME points()=>void point() METHOD
 EditAction 1474550140773 TestBowling.java 3259 8 26 8
+UnitTestCaseAction 1474550142746 TestBowling.java OK
+UnitTestSessionAction 1474550142747 TestBowling.testSecondThrowWithMinus1point OK
+UnitTestCaseAction 1474550150904 TestBowling.java OK
+UnitTestSessionAction 1474550150905 TestBowling.java OK
+EditAction 1474550231036 BowlingGame.java 1798 4 8 0
