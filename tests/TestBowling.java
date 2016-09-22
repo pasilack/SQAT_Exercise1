@@ -83,7 +83,7 @@ public class TestBowling {
 		bg.addFrame(new Frame(10, 0));
 		bg.addFrame(new Frame(0, 10));
 		bg.setBonus(6, 0);
-		assertEquals(286, bg.score());
+		assertEquals(266, bg.score());
 	}
 
 }

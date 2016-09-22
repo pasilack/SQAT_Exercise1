@@ -104,3 +104,6 @@ RefactoringAction 1474548876846 TestBowling.java ADD void testMaximumScore300()/
 RefactoringAction 1474548882860 TestBowling.java RENAME testMaximumScore300()/2=>void test9Strikes() METHOD
 RefactoringAction 1474548888389 TestBowling.java RENAME test9Strikes()=>void test9StrikesAndSpare() METHOD
 EditAction 1474548922388 TestBowling.java 2376 6 58 6
+UnitTestCaseAction 1474548924296 TestBowling.java FAIL
+UnitTestSessionAction 1474548924297 TestBowling.java FAIL
+EditAction 1474548995347 TestBowling.java 2376 6 58 6
