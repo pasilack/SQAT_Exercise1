@@ -16,3 +16,6 @@ RefactoringAction 1474545938322 BowlingGame.java ADD T prev FIELD
 RefactoringAction 1474545939843 BowlingGame.java REMOVE t FIELD
 RefactoringAction 1474545939845 BowlingGame.java REMOVE prev FIELD
 EditAction 1474546216764 TestBowling.java 278 1 4 1
+UnitTestCaseAction 1474546220714 TestBowling.java FAIL
+UnitTestSessionAction 1474546220715 TestBowling.java FAIL
+EditAction 1474546373592 BowlingGame.java 958 4 5 0

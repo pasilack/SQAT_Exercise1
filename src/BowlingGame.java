@@ -33,7 +33,7 @@ public class BowlingGame {
 		int score = 0;
 		for(Frame frame: frames) {
 			if(frame.isStrike()) {
-				Frame frameplus1 = new Frame(0, 0);
+				Frame frameplus1 = null;
 				if (it.hasNext()) {
 					  frameplus1 = it.next();
 				}
