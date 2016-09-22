@@ -146,3 +146,6 @@ UnitTestSessionAction 1474550142747 TestBowling.testSecondThrowWithMinus1point O
 UnitTestCaseAction 1474550150904 TestBowling.java OK
 UnitTestSessionAction 1474550150905 TestBowling.java OK
 EditAction 1474550231036 BowlingGame.java 1798 4 8 0
+UnitTestCaseAction 1474550234560 TestBowling.java FAIL
+UnitTestSessionAction 1474550234561 TestBowling.java FAIL
+EditAction 1474550476848 BowlingGame.java 1899 4 8 0
