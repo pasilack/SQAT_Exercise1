@@ -9,7 +9,7 @@ public class TestBowling {
 		BowlingGame bg = new BowlingGame();
 		bg.addFrame(new Frame(10, 0));
 		bg.addFrame(new Frame(4, 5));
-		assertEquals(19, bg.score());
+		assertEquals(10, bg.score());
 	}
 
 }
