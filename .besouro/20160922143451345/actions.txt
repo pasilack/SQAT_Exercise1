@@ -113,3 +113,10 @@ EditAction 1474549106952 Frame.java 765 6 10 0
 UnitTestCaseAction 1474549109974 TestBowling.java OK
 UnitTestSessionAction 1474549109975 TestBowling.java OK
 EditAction 1474549230345 TestBowling.java 2376 6 58 6
+CompilationAction 1474549231896 TestBowling.java
+RefactoringAction 1474549390090 BowlingGame.java RENAME addFrame(Frame)=>void addFrame FIELD
+RefactoringAction 1474549398129 BowlingGame.java RENAME Bol(Frame)=>void BowlingException(Frame) METHOD
+RefactoringAction 1474549609267 BowlingException.java ADD long serialVersionUID FIELD
+RefactoringAction 1474549609270 BowlingException.java ADD void LengthException(String) METHOD
+RefactoringAction 1474549622285 BowlingException.java RENAME LengthException(String)=>BowlingException(String) METHOD
+EditAction 1474549626081 BowlingException.java 172 1 1 0
