@@ -31,3 +31,7 @@ UnitTestCaseAction 1474546722139 TestBowling.java FAIL
 UnitTestSessionAction 1474546722140 TestBowling.java FAIL
 EditAction 1474546731450 TestBowling.java 278 1 4 1
 EditAction 1474546819470 BowlingGame.java 872 4 5 0
+RefactoringAction 1474546833299 TestBowling.java ADD void testStrike()/2 METHOD
+RefactoringAction 1474546839313 TestBowling.java RENAME testStrike()/2=>void testSp() METHOD
+RefactoringAction 1474546841320 TestBowling.java RENAME testSp()=>void testSpare() METHOD
+EditAction 1474546854308 TestBowling.java 459 2 8 2

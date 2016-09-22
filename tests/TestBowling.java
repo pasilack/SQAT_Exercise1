@@ -11,5 +11,13 @@ public class TestBowling {
 		bg.addFrame(new Frame(4, 5));
 		assertEquals(19, bg.score());
 	}
+	
+	@Test
+	public void testSpare() {
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(5, 5));
+		bg.addFrame(new Frame(4, 5));
+		assertEquals(14, bg.score());
+	}
 
 }
