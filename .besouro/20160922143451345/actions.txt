@@ -100,3 +100,7 @@ EditAction 1474548779263 BowlingGame.java 1350 4 6 0
 UnitTestCaseAction 1474548781210 TestBowling.java OK
 UnitTestSessionAction 1474548781211 TestBowling.java OK
 EditAction 1474548863997 BowlingGame.java 1455 4 6 0
+RefactoringAction 1474548876846 TestBowling.java ADD void testMaximumScore300()/2 METHOD
+RefactoringAction 1474548882860 TestBowling.java RENAME testMaximumScore300()/2=>void test9Strikes() METHOD
+RefactoringAction 1474548888389 TestBowling.java RENAME test9Strikes()=>void test9StrikesAndSpare() METHOD
+EditAction 1474548922388 TestBowling.java 2376 6 58 6

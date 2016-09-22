@@ -68,5 +68,22 @@ public class TestBowling {
 		bg.setBonus(10, 10);
 		assertEquals(300, bg.score());
 	}
+	
+	@Test
+	public void test9StrikesAndSpare() {
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(0, 10));
+		bg.setBonus(6, 0);
+		assertEquals(286, bg.score());
+	}
 
 }
