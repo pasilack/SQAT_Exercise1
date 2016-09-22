@@ -163,3 +163,6 @@ RefactoringAction 1474550675601 TestBowling.java RENAME testBonusFrameWith()=>vo
 RefactoringAction 1474550679617 TestBowling.java RENAME testBonusFrameWith100poin()=>void testBonusFrameWith100pointThrow() METHOD
 RefactoringAction 1474550682132 TestBowling.java RENAME testBonusFrameWith100pointThrow()=>void testBonusFrameWith100PointThrow() METHOD
 EditAction 1474550722434 TestBowling.java 3517 9 30 9
+UnitTestCaseAction 1474550724145 TestBowling.java OK
+UnitTestSessionAction 1474550724146 TestBowling.java OK
+EditAction 1474550783986 BowlingGame.java 2207 4 10 0
