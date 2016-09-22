@@ -72,3 +72,6 @@ RefactoringAction 1474547881385 TestBowling.java RENAME test10FramesWith2NoSpare
 RefactoringAction 1474547904901 TestBowling.java RENAME test10FramesWith2StrikesNoSparesOrStrikes()=>void test10FramesWith2StrikesAtNoSparesOrStrikes() METHOD
 RefactoringAction 1474547909915 TestBowling.java RENAME test10FramesWith2StrikesAtNoSparesOrStrikes()=>void test10FramesWith2StrikesAtStart() METHOD
 EditAction 1474547971135 TestBowling.java 1397 4 32 4
+UnitTestCaseAction 1474547973337 TestBowling.java FAIL
+UnitTestSessionAction 1474547973338 TestBowling.java FAIL
+EditAction 1474548077131 TestBowling.java 1397 4 32 4
