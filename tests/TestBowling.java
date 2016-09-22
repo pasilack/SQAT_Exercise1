@@ -16,7 +16,7 @@ public class TestBowling {
 	public void testSpare() {
 		BowlingGame bg = new BowlingGame();
 		bg.addFrame(new Frame(5, 5));
-		bg.addFrame(new Frame(4, 5));
+		bg.addFrame(new Frame(a, 5));
 		assertEquals(23, bg.score());
 	}
 	
