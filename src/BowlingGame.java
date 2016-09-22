@@ -29,7 +29,12 @@ public class BowlingGame {
 		int counter = 0;
 		for(Frame frame: frames) {
 			if(frame.isStrike()) {
-				score += 10 + frames.get(counter+1).score();
+				if(frames.get(counter+1).isStrike()) {
+					score += 20 + frames.get(counter+2).getFirstThrow();
+				}
+				else {
+					score += 10 + frames.get(counter+1).score();
+				}
 			}
 			else if(frame.isSpare()) {
 				score += 10 + frames.get(counter+1).getFirstThrow();
