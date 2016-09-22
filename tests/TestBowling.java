@@ -51,5 +51,22 @@ public class TestBowling {
 		bg.addFrame(new Frame(0, 5));
 		assertEquals(70, bg.score());
 	}
+	
+	@Test
+	public void testMaximumScore300() {
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.setBonus(10, 10);
+		assertEquals(300, bg.score());
+	}
 
 }

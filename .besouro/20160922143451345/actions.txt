@@ -88,3 +88,8 @@ UnitTestCaseAction 1474548284523 TestBowling.java FAIL
 UnitTestSessionAction 1474548284524 TestBowling.java FAIL
 EditAction 1474548339025 TestBowling.java 1397 4 32 4
 EditAction 1474548359779 BowlingGame.java 1191 4 5 0
+RefactoringAction 1474548446647 TestBowling.java ADD void test10FramesWith2StrikesAtStart()/2 METHOD
+RefactoringAction 1474548455660 TestBowling.java RENAME test10FramesWith2StrikesAtStart()/2=>void testMa() METHOD
+RefactoringAction 1474548458673 TestBowling.java RENAME testMa()=>void testMaximumScore() METHOD
+RefactoringAction 1474548459687 TestBowling.java RENAME testMaximumScore()=>void testMaximumScore300() METHOD
+EditAction 1474548507632 TestBowling.java 1887 5 45 5
