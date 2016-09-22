@@ -41,7 +41,7 @@ public class BowlingGame {
 			else if(frame.isStrike()) {
 				if(counter == 8 && frames.get(counter+1).isStrike())
 					score += 20 + bonus.getFirstThrow();
-				if(frames.get(counter+1).isStrike()) {
+				else if(frames.get(counter+1).isStrike()) {
 					score += 20 + frames.get(counter+2).getFirstThrow();
 					//System.out.println(score);
 				}
