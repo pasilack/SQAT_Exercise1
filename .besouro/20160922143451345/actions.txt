@@ -7,3 +7,4 @@ RefactoringAction 1474544812768 BowlingGame.java RENAME get=>List<Frame> getFram
 RefactoringAction 1474544850840 BowlingGame.java REMOVE getFrames FIELD
 EditAction 1474544924379 Frame.java 719 6 9 0
 EditAction 1474544966715 BowlingGame.java 622 4 2 0
+EditAction 1474545095428 Frame.java 739 6 9 0
