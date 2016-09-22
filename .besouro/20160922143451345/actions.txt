@@ -9,3 +9,10 @@ EditAction 1474544924379 Frame.java 719 6 9 0
 EditAction 1474544966715 BowlingGame.java 622 4 2 0
 EditAction 1474545095428 Frame.java 739 6 9 0
 EditAction 1474545688396 Frame.java 759 6 10 0
+RefactoringAction 1474545872642 BowlingGame.java ADD ListIterator<T> it FIELD
+RefactoringAction 1474545881959 BowlingGame.java ADD import java.util.ListIterator IMPORT
+RefactoringAction 1474545938302 BowlingGame.java ADD T t FIELD
+RefactoringAction 1474545938322 BowlingGame.java ADD T prev FIELD
+RefactoringAction 1474545939843 BowlingGame.java REMOVE t FIELD
+RefactoringAction 1474545939845 BowlingGame.java REMOVE prev FIELD
+EditAction 1474546216764 TestBowling.java 278 1 4 1
