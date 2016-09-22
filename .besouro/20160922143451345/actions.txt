@@ -53,3 +53,6 @@ RefactoringAction 1474546990564 TestBowling.java RENAME test10FramesWithNoSpares
 RefactoringAction 1474546993077 TestBowling.java RENAME test10FramesWithNoSparesOr()=>void test10FramesWithNoSparesOrStri() METHOD
 RefactoringAction 1474546994089 TestBowling.java RENAME test10FramesWithNoSparesOrStri()=>void test10FramesWithNoSparesOrStrikes() METHOD
 EditAction 1474547061410 TestBowling.java 928 3 20 3
+UnitTestCaseAction 1474547063450 TestBowling.java FAIL
+UnitTestSessionAction 1474547063451 TestBowling.java FAIL
+EditAction 1474547101965 BowlingGame.java 918 4 5 0
