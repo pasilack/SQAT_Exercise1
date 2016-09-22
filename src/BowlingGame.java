@@ -23,7 +23,11 @@ public class BowlingGame {
 	}
 	
 	// Sets the bonus throws at the end of the game
-	public void setBonus(int firstThrow, int secondThrow) {
+	public void setBonus(int firstThrow, int secondThrow) throws BowlingException{
+		if(firstThrow > 10 || firstThrow < 0)
+			throw new BowlingException("Points of the first bonus throw are wrong: " + firstThrow);
+		if(secondThrow > 10 || secondThrow < 0)
+			throw new BowlingException("Points of the second bonus throw are wrong: " + secondThrow);
 		bonus = new Frame(firstThrow, secondThrow);
 	}
 	
