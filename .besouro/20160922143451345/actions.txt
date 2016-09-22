@@ -1,2 +1,4 @@
 FileOpenedAction 1474544091601 BowlingGame.java 623 4 1 0
 EditAction 1474544544343 Frame.java 689 6 8 0
+RefactoringAction 1474544556406 TestBowling.java RENAME test()=>void testStrike() METHOD
+EditAction 1474544650591 BowlingGame.java 622 4 2 0
