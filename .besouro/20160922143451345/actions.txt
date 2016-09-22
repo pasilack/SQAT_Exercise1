@@ -121,3 +121,15 @@ RefactoringAction 1474549609270 BowlingException.java ADD void LengthException(S
 RefactoringAction 1474549622285 BowlingException.java RENAME LengthException(String)=>BowlingException(String) METHOD
 EditAction 1474549626081 BowlingException.java 172 1 1 0
 EditAction 1474549743611 BowlingGame.java 1820 4 8 0
+CompilationAction 1474549745126 TestBowling.java
+CompilationAction 1474549745127 TestBowling.java
+CompilationAction 1474549981549 TestBowling.java
+CompilationAction 1474549981550 TestBowling.java
+RefactoringAction 1474550014864 TestBowling.java ADD void test9StrikesAndSpare()/2 METHOD
+RefactoringAction 1474550032941 TestBowling.java RENAME test9StrikesAndSpare()/2=>void testFirst() METHOD
+RefactoringAction 1474550034459 TestBowling.java RENAME testFirst()=>void testF() METHOD
+RefactoringAction 1474550036479 TestBowling.java RENAME testF()=>void testFirstT() METHOD
+RefactoringAction 1474550038494 TestBowling.java RENAME testFirstT()=>void testFirstThrow() METHOD
+RefactoringAction 1474550041008 TestBowling.java RENAME testFirstThrow()=>void testFirstThrowWith100() METHOD
+RefactoringAction 1474550043023 TestBowling.java RENAME testFirstThrowWith100()=>void testFirstThrowWith100points() METHOD
+EditAction 1474550087071 TestBowling.java 2992 7 22 7
