@@ -138,5 +138,18 @@ public class TestBowling {
 		}
 		assertEquals(true, thrown);
 	}
+	
+	@Test
+	public void testBonusFrameWith100PointThrow() {
+		BowlingGame bg = new BowlingGame();
+		boolean thrown = false;
+		try {
+			bg.setBonus(100, 0);
+		} 
+		catch (BowlingException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
 
 }

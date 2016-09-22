@@ -155,3 +155,11 @@ EditAction 1474550499385 BowlingGame.java 1904 4 8 0
 UnitTestCaseAction 1474550501390 TestBowling.java OK
 UnitTestSessionAction 1474550501392 TestBowling.java OK
 EditAction 1474550636647 BowlingGame.java 2197 4 10 0
+RefactoringAction 1474550656520 TestBowling.java ADD void testSecondThrowWithMinus1point()/2 METHOD
+RefactoringAction 1474550663035 TestBowling.java RENAME testSecondThrowWithMinus1point()/2=>void testBonus() METHOD
+RefactoringAction 1474550665552 TestBowling.java RENAME testBonus()=>void testBonusFrame() METHOD
+RefactoringAction 1474550667569 TestBowling.java RENAME testBonusFrame()=>void testBonusFrameWith() METHOD
+RefactoringAction 1474550675601 TestBowling.java RENAME testBonusFrameWith()=>void testBonusFrameWith100poin() METHOD
+RefactoringAction 1474550679617 TestBowling.java RENAME testBonusFrameWith100poin()=>void testBonusFrameWith100pointThrow() METHOD
+RefactoringAction 1474550682132 TestBowling.java RENAME testBonusFrameWith100pointThrow()=>void testBonusFrameWith100PointThrow() METHOD
+EditAction 1474550722434 TestBowling.java 3517 9 30 9
