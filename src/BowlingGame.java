@@ -28,7 +28,10 @@ public class BowlingGame {
 		int score = 0;
 		int counter = 0;
 		for(Frame frame: frames) {
-			if(frame.isStrike()) {
+			if(counter == 9 && frame.isStrike()) {
+				score += 10 + frames.get(10).score();
+			}
+			else if(frame.isStrike()) {
 				if(frames.get(counter+1).isStrike()) {
 					score += 20 + frames.get(counter+2).getFirstThrow();
 					//System.out.println(score);
@@ -47,6 +50,8 @@ public class BowlingGame {
 				//System.out.println(score);
 			}
 			counter++;
+			if(counter == 10)
+				break;
 		}
 		return score;
 	}

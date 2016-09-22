@@ -94,3 +94,6 @@ RefactoringAction 1474548458673 TestBowling.java RENAME testMa()=>void testMaxim
 RefactoringAction 1474548459687 TestBowling.java RENAME testMaximumScore()=>void testMaximumScore300() METHOD
 EditAction 1474548507632 TestBowling.java 1887 5 45 5
 EditAction 1474548510704 BowlingGame.java 1219 4 6 0
+UnitTestCaseAction 1474548513338 TestBowling.java FAIL
+UnitTestSessionAction 1474548513339 TestBowling.java FAIL
+EditAction 1474548779263 BowlingGame.java 1350 4 6 0
