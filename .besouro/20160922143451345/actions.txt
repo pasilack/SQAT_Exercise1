@@ -2,3 +2,7 @@ FileOpenedAction 1474544091601 BowlingGame.java 623 4 1 0
 EditAction 1474544544343 Frame.java 689 6 8 0
 RefactoringAction 1474544556406 TestBowling.java RENAME test()=>void testStrike() METHOD
 EditAction 1474544650591 BowlingGame.java 622 4 2 0
+RefactoringAction 1474544810746 BowlingGame.java ADD List<Frame> get FIELD
+RefactoringAction 1474544812768 BowlingGame.java RENAME get=>List<Frame> getFrames FIELD
+RefactoringAction 1474544850840 BowlingGame.java REMOVE getFrames FIELD
+EditAction 1474544924379 Frame.java 719 6 9 0
