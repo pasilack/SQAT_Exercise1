@@ -120,3 +120,4 @@ RefactoringAction 1474549609267 BowlingException.java ADD long serialVersionUID 
 RefactoringAction 1474549609270 BowlingException.java ADD void LengthException(String) METHOD
 RefactoringAction 1474549622285 BowlingException.java RENAME LengthException(String)=>BowlingException(String) METHOD
 EditAction 1474549626081 BowlingException.java 172 1 1 0
+EditAction 1474549743611 BowlingGame.java 1820 4 8 0

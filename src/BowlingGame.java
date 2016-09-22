@@ -14,7 +14,11 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	// adds a frame to the game
-	public void addFrame(Frame frame){
+	public void addFrame (Frame frame) throws BowlingException{
+		if(frame.getFirstThrow() > 10 || frame.getFirstThrow() < 0)
+			throw new BowlingException("Points of the Frame's first throw are wrong: " + frame.getFirstThrow());
+		if(frame.getSecondThrow() > 10 || frame.getSecondThrow() < 0)
+			throw new BowlingException("Points of the Frame's second throw are wrong: " + frame.getSecondThrow());
 		frames.add(frame);
 	}
 	
