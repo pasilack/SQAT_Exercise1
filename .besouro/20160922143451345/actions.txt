@@ -35,3 +35,21 @@ RefactoringAction 1474546833299 TestBowling.java ADD void testStrike()/2 METHOD
 RefactoringAction 1474546839313 TestBowling.java RENAME testStrike()/2=>void testSp() METHOD
 RefactoringAction 1474546841320 TestBowling.java RENAME testSp()=>void testSpare() METHOD
 EditAction 1474546854308 TestBowling.java 459 2 8 2
+UnitTestCaseAction 1474546856381 TestBowling.java OK
+UnitTestSessionAction 1474546856382 TestBowling.java OK
+RefactoringAction 1474546879388 TestBowling.java ADD void testStrike()/2 METHOD
+RefactoringAction 1474546887403 TestBowling.java RENAME testStrike()/2=>void test10Strike() METHOD
+RefactoringAction 1474546888921 TestBowling.java RENAME test10Strike()=>void test10e() METHOD
+RefactoringAction 1474546889939 TestBowling.java RENAME test10e()=>void test10() METHOD
+RefactoringAction 1474546896951 TestBowling.java REMOVE test10() METHOD
+RefactoringAction 1474546970472 TestBowling.java ADD void testStrike()/2 METHOD
+RefactoringAction 1474546973985 TestBowling.java RENAME testStrike()/2=>void test10Strike() METHOD
+RefactoringAction 1474546977499 TestBowling.java RENAME test10Strike()=>void test10Frames() METHOD
+RefactoringAction 1474546979514 TestBowling.java RENAME test10Frames()=>void test10FramesWith() METHOD
+RefactoringAction 1474546983526 TestBowling.java RENAME test10FramesWith()=>void test10FramesWithNo() METHOD
+RefactoringAction 1474546986038 TestBowling.java RENAME test10FramesWithNo()=>void test10FramesWithNoSa() METHOD
+RefactoringAction 1474546989050 TestBowling.java RENAME test10FramesWithNoSa()=>void test10FramesWithNoSpares() METHOD
+RefactoringAction 1474546990564 TestBowling.java RENAME test10FramesWithNoSpares()=>void test10FramesWithNoSparesOr() METHOD
+RefactoringAction 1474546993077 TestBowling.java RENAME test10FramesWithNoSparesOr()=>void test10FramesWithNoSparesOrStri() METHOD
+RefactoringAction 1474546994089 TestBowling.java RENAME test10FramesWithNoSparesOrStri()=>void test10FramesWithNoSparesOrStrikes() METHOD
+EditAction 1474547061410 TestBowling.java 928 3 20 3
