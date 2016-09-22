@@ -133,3 +133,11 @@ RefactoringAction 1474550038494 TestBowling.java RENAME testFirstT()=>void testF
 RefactoringAction 1474550041008 TestBowling.java RENAME testFirstThrow()=>void testFirstThrowWith100() METHOD
 RefactoringAction 1474550043023 TestBowling.java RENAME testFirstThrowWith100()=>void testFirstThrowWith100points() METHOD
 EditAction 1474550087071 TestBowling.java 2992 7 22 7
+UnitTestCaseAction 1474550089146 TestBowling.java OK
+UnitTestSessionAction 1474550089147 TestBowling.java OK
+RefactoringAction 1474550107273 TestBowling.java ADD void testFirstThrowWith100points()/2 METHOD
+RefactoringAction 1474550112289 TestBowling.java RENAME testFirstThrowWith100points()/2=>void testThrowWith100points() METHOD
+RefactoringAction 1474550114306 TestBowling.java RENAME testThrowWith100points()=>void testSecondThrowWith100points() METHOD
+RefactoringAction 1474550117326 TestBowling.java RENAME testSecondThrowWith100points()=>void testSecondThrowWith FIELD
+RefactoringAction 1474550121356 TestBowling.java RENAME points()=>void point() METHOD
+EditAction 1474550140773 TestBowling.java 3259 8 26 8

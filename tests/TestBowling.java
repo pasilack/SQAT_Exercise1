@@ -125,5 +125,18 @@ public class TestBowling {
 		}
 		assertEquals(true, thrown);
 	}
+	
+	@Test
+	public void testSecondThrowWithMinus1point() {
+		BowlingGame bg = new BowlingGame();
+		boolean thrown = false;
+		try {
+			bg.addFrame(new Frame(0, -1));
+		} 
+		catch (BowlingException e) {
+			thrown = true;
+		}
+		assertEquals(true, thrown);
+	}
 
 }
