@@ -35,5 +35,21 @@ public class TestBowling {
 		bg.addFrame(new Frame(0, 5));
 		assertEquals(65, bg.score());
 	}
+	
+	@Test
+	public void test10FramesWith2StrikesAtStart() {
+		BowlingGame bg = new BowlingGame();
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(10, 0));
+		bg.addFrame(new Frame(0, 5));
+		bg.addFrame(new Frame(5, 0));
+		bg.addFrame(new Frame(4, 5));
+		bg.addFrame(new Frame(4, 5));
+		bg.addFrame(new Frame(4, 5));
+		bg.addFrame(new Frame(4, 0));
+		bg.addFrame(new Frame(4, 5));
+		bg.addFrame(new Frame(0, 5));
+		assertEquals(86, bg.score());
+	}
 
 }

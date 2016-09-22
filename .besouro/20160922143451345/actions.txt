@@ -66,3 +66,9 @@ EditAction 1474547326992 BowlingGame.java 923 4 5 0
 UnitTestCaseAction 1474547328915 TestBowling.java OK
 UnitTestSessionAction 1474547328916 TestBowling.java OK
 EditAction 1474547856124 BowlingGame.java 1053 4 5 0
+RefactoringAction 1474547870855 TestBowling.java ADD void test10FramesWithNoSparesOrStrikes()/2 METHOD
+RefactoringAction 1474547877868 TestBowling.java RENAME test10FramesWithNoSparesOrStrikes()/2=>void test10FramesWith2NoSparesOrStrikes() METHOD
+RefactoringAction 1474547881385 TestBowling.java RENAME test10FramesWith2NoSparesOrStrikes()=>void test10FramesWith2StrikesNoSparesOrStrikes() METHOD
+RefactoringAction 1474547904901 TestBowling.java RENAME test10FramesWith2StrikesNoSparesOrStrikes()=>void test10FramesWith2StrikesAtNoSparesOrStrikes() METHOD
+RefactoringAction 1474547909915 TestBowling.java RENAME test10FramesWith2StrikesAtNoSparesOrStrikes()=>void test10FramesWith2StrikesAtStart() METHOD
+EditAction 1474547971135 TestBowling.java 1397 4 32 4
